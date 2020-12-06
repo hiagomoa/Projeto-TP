@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState, FormEvent } from "react";
 import "./styles.css";
 
@@ -53,7 +52,6 @@ const About: React.FC = () => {
   async function traduction(e: FormEvent<HTMLFormElement>): Promise<void> {
     e.preventDefault();
     console.log(value);
-    // eslint-disable-next-line no-await-in-loop
     const response = await api.post("/traducao", { text: lixo });
     const { data } = response;
     console.log(data);
@@ -65,14 +63,14 @@ const About: React.FC = () => {
     <>
       <Head>
         <Div1>
-          <Text href="index.tsx">Release</Text>
-          <Text href="../Main/index.tsx">About</Text>
+          <Text href="/">Início</Text>
+          <Text href="index.tsx">Sobre</Text>
         </Div1>
 
         <Logo href="/">Mybrary</Logo>
 
         <Div1>
-          <ButtonYeah>Get Started</ButtonYeah>
+          <ButtonYeah>Nós</ButtonYeah>
         </Div1>
       </Head>
       <Body>

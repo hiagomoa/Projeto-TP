@@ -290,3 +290,52 @@ export const Title = styled.span`
   font-family: "Fira Sans";
   font-size: calc(1em + 1vw);
 `;
+
+export const TextKhris = styled.div `
+  margin-top: 15%;
+  text-align: left;
+  justify-content: center;
+  font-family: "Fira Sans";
+  font-size: calc(0.5em + 1vw);
+  @media (max-width: 728px) {
+        img {
+          width: 150px;
+        }
+  }
+  `;
+
+export const TextHiago = styled.div `
+text-align: left;
+justify-content: center;
+font-family: "Fira Sans";
+font-size: calc(0.5em + 1vw);
+bottom: 60%;
+margin-left: 20%;
+bottom: 270px;
+width: 50%;
+position: relative;
+
+@media (max-width: 728px) {
+        margin-top: 40%;  
+}
+
+`;
+
+export const TextVictor = styled. div `
+margin-top: 11%;
+text-align: left;
+justify-content: center;
+font-family: "Fira Sans";
+font-size: calc(0.5em + 1vw);
+@media (max-width: 728px) {
+      img {
+        width: 150px;
+      }
+}
+
+`;
+
+export const DivsImages = styled.div `
+        
+
+`;

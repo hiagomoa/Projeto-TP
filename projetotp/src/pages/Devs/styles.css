@@ -1,0 +1,35 @@
+.swiper-container {
+        width: 480px;
+    
+    
+    @media screen and (max-width: 640px) {
+        .swiper-container {
+            width: 640px;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {
+        .swiper-container {
+            width: 1100px;
+        }
+    }
+}
+
+.Khris{
+        marginTop: "14%";
+        display: "block";
+        marginLeft: "auto";
+        marginRight: "auto";
+        width: "10%";
+        borderRadius: "50%";
+        position: relative;
+        left: "265px";
+        will-change: "top, left";
+        top: "-250px";
+   }
+
+    
+    
+    
+    
+    

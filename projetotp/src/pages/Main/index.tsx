@@ -1,13 +1,8 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-console */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable react/style-prop-object */
 import React, { useState, FormEvent } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-// eslint-disable-next-line import/order
+
 import api from "../../services/api";
 
-// eslint-disable-next-line import/order
 import {
   Head,
   Body,
@@ -80,14 +75,14 @@ const Main: React.FC = () => {
     <>
       <Head>
         <Div1>
-          <Text href="../About/index.tsx">Release</Text>
-          <Text href="../About/index.tsx">About</Text>
+          <Text href="/">Início</Text>
+          <Text href="../About/index.tsx">Sobre</Text>
         </Div1>
 
         <Logo href="/">Mybrary</Logo>
 
         <Div1>
-          <ButtonYeah>Get Started</ButtonYeah>
+          <ButtonYeah href="../Devs/index.tsx">Nós</ButtonYeah>
         </Div1>
       </Head>
       <Body>
