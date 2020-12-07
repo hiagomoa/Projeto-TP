@@ -70,7 +70,7 @@ const About: React.FC = () => {
         <Logo href="/">Mybrary</Logo>
 
         <Div1>
-          <ButtonYeah>Nós</ButtonYeah>
+          <ButtonYeah href="../Devs/index.tsx">Nós</ButtonYeah>
         </Div1>
       </Head>
       <Body>
